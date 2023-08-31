@@ -75,14 +75,14 @@ console.log (arrGanjil.nama +" Dengan isi " , arrGanjil.isi ,"\n" , arrGenap.nam
 
 // menampilkan min max total dan rata rata pada array ganjil
 console.log (   "Nilai Terkecil (min) Pada " + arrGanjil.nama +" Adalah " + min(arrGanjil.isi) +"\n" +
-                "Nilai Terbesar (man) Pada " + arrGanjil.nama +" Adalah " + max(arrGanjil.isi) +"\n" +
+                "Nilai Terbesar (max) Pada " + arrGanjil.nama +" Adalah " + max(arrGanjil.isi) +"\n" +
                 "Total Nilai Pada " +arrGanjil.nama+ " Adalah " +total(arrGanjil.isi) +"\n" +
                 "Dan Rata Rata Nilai pada " + arrGanjil.nama + " Adalah " + RataRata(arrGanjil.isi) ,"\n"
             )
 
 // menampilkan min max total dan rata rata pada array genap
 console.log (   "Nilai Terkecil (min) Pada " + arrGenap.nama +" Adalah " + min(arrGenap.isi) +"\n" +
-                "Nilai Terbesar (man) Pada " + arrGenap.nama +" Adalah " + max(arrGenap.isi) +"\n" +
+                "Nilai Terbesar (max) Pada " + arrGenap.nama +" Adalah " + max(arrGenap.isi) +"\n" +
                 "Total Nilai Pada " +arrGenap.nama+ " Adalah " +total(arrGenap.isi) +"\n" +
                 "Dan Rata Rata Nilai pada " + arrGenap.nama + " Adalah " + RataRata(arrGenap.isi),"\n"
             )
