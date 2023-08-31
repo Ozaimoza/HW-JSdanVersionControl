@@ -52,13 +52,13 @@ function total(array) {
 }
 
 // Function mencari nilai Rata rata  array
-function RataRata(array) {
+function rataRata(array) {
     // memanggil function total dibagi dengan panjang index untuk mencari nilai rata rata
     return total(array) / array.length
 }
 
 // Function untuk membandingkan kedua array
-function Bandingkan(array1, array2) {
+function bandingkan(array1, array2) {
     return  nilai = array1 > array2 ? " Lebih Besar Dari " :
                     array1 < array2 ? " Lebih Kecil Dari " :
                     " Sama Dengan "
@@ -77,19 +77,19 @@ console.log (arrGanjil.nama +" Dengan isi " , arrGanjil.isi ,"\n" , arrGenap.nam
 console.log (   "Nilai Terkecil (min) Pada " + arrGanjil.nama +" Adalah " + min(arrGanjil.isi) +"\n" +
                 "Nilai Terbesar (max) Pada " + arrGanjil.nama +" Adalah " + max(arrGanjil.isi) +"\n" +
                 "Total Nilai Pada " +arrGanjil.nama+ " Adalah " +total(arrGanjil.isi) +"\n" +
-                "Dan Rata Rata Nilai pada " + arrGanjil.nama + " Adalah " + RataRata(arrGanjil.isi) ,"\n"
+                "Dan Rata Rata Nilai pada " + arrGanjil.nama + " Adalah " + rataRata(arrGanjil.isi) ,"\n"
             )
 
 // menampilkan min max total dan rata rata pada array genap
 console.log (   "Nilai Terkecil (min) Pada " + arrGenap.nama +" Adalah " + min(arrGenap.isi) +"\n" +
                 "Nilai Terbesar (max) Pada " + arrGenap.nama +" Adalah " + max(arrGenap.isi) +"\n" +
                 "Total Nilai Pada " +arrGenap.nama+ " Adalah " +total(arrGenap.isi) +"\n" +
-                "Dan Rata Rata Nilai pada " + arrGenap.nama + " Adalah " + RataRata(arrGenap.isi),"\n"
+                "Dan Rata Rata Nilai pada " + arrGenap.nama + " Adalah " + rataRata(arrGenap.isi),"\n"
             )
 
 // Membandingkan min max total dan rata rata dari kedua array ( ganjil dan genap )
 console.log("Perbandingan Nilai Antar " + arrGanjil.nama + " Dan " + arrGenap.nama + " Adalah" + "\n" +
-            "- Nilai Terkecil (min) Pada "+ arrGanjil.nama + Bandingkan( min(arrGanjil.isi), min(arrGenap.isi))+ arrGenap.nama + "\n" +
-            "- Nilai Terbesar (max) Pada "+ arrGanjil.nama + Bandingkan( max(arrGanjil.isi), max(arrGenap.isi))+ arrGenap.nama + "\n" +
-            "- Nilai Total Pada "+ arrGanjil.nama + Bandingkan( total(arrGanjil.isi), total(arrGenap.isi))+ arrGenap.nama + "\n" +
-            "- Nilai Rata Rata Pada "+ arrGanjil.nama + Bandingkan( RataRata(arrGanjil.isi), RataRata(arrGenap.isi))+ arrGenap.nama)
+            "- Nilai Terkecil (min) Pada "+ arrGanjil.nama + bandingkan( min(arrGanjil.isi), min(arrGenap.isi))+ arrGenap.nama + "\n" +
+            "- Nilai Terbesar (max) Pada "+ arrGanjil.nama + bandingkan( max(arrGanjil.isi), max(arrGenap.isi))+ arrGenap.nama + "\n" +
+            "- Nilai Total Pada "+ arrGanjil.nama + bandingkan( total(arrGanjil.isi), total(arrGenap.isi))+ arrGenap.nama + "\n" +
+            "- Nilai Rata Rata Pada "+ arrGanjil.nama + bandingkan( rataRata(arrGanjil.isi), rataRata(arrGenap.isi))+ arrGenap.nama)
